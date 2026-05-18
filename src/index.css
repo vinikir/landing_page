@@ -60,6 +60,19 @@ a {
   backdrop-filter: blur(18px);
 }
 
+.brand-lockup {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+}
+
+.brand-logo {
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+  filter: drop-shadow(0 8px 18px rgba(0, 0, 0, 0.35));
+}
+
 .brand,
 .hero h1,
 .hero-card h2,
@@ -72,6 +85,19 @@ a {
   margin: 0;
   font-size: 2rem;
   color: var(--accent);
+}
+
+.brand-copy {
+  display: grid;
+  gap: 0.15rem;
+}
+
+.brand-copy span {
+  color: var(--muted);
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
 }
 
 .topbar nav {
@@ -321,6 +347,11 @@ a {
   .topbar {
     align-items: flex-start;
     flex-direction: column;
+  }
+
+  .brand-logo {
+    width: 56px;
+    height: 56px;
   }
 
   .hero-copy,

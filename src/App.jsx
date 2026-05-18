@@ -31,7 +31,13 @@ export default function App() {
     <div className="page-shell">
       <header className="hero">
         <div className="topbar">
-          <p className="brand">GeM Motos</p>
+          <a className="brand-lockup" href="#top" aria-label="GeM Motos">
+            <img className="brand-logo" src="/img/logoGem.png" alt="Logo da GeM Motos" />
+            <div className="brand-copy">
+              <p className="brand">GeM Motos</p>
+              <span>Peças e oficina especializada</span>
+            </div>
+          </a>
           <nav>
             <a href="#servicos">Serviços</a>
             <a href="#diferenciais">Diferenciais</a>
