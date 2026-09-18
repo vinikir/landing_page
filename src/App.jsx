@@ -28,13 +28,13 @@ const advantages = [
 
 export default function App() {
   return (
-    <div className="page-shell">
+    <div className="page-shell" id="top">
       <header className="hero">
         <div className="topbar">
-          <a className="brand-lockup" href="#top" aria-label="GeM Motos">
-            <img className="brand-logo" src="/img/logoGem.png" alt="Logo da GeM Motos" />
+          <a className="brand-lockup" href="#top" aria-label="G&M Moto Peças">
+            <img className="brand-logo" src="/img/logoGem.png" alt="Logo da G&M Moto Peças" />
             <div className="brand-copy">
-              <p className="brand">GeM Motos</p>
+              <p className="brand">G&amp;M Moto Peças</p>
               <span>Peças e oficina especializada</span>
             </div>
           </a>
@@ -127,7 +127,7 @@ export default function App() {
           <div className="contact-card">
             <p>WhatsApp: (00) 00000-0000</p>
             <p>Endereço: Rua da Oficina, 123</p>
-            <p>Instagram: @gemmotos</p>
+            <p>Instagram: @gmmotopecas</p>
           </div>
         </section>
       </main>
